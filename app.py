@@ -153,7 +153,7 @@ with st.sidebar:
     )
     st.markdown("---")
     st.markdown("""
-<div style="font-size: 0.75rem; font-weight: 700; text-transform: uppercase; text-align: center; margin-top: 15px; line-height: 1.4;">
+<div style="font-size: 0.9rem; font-weight: 700; text-transform: uppercase; text-align: center; margin-top: 15px; line-height: 1.4;">
     Designed by CDAM Data Scientist<br>
     <span style="color: #DC2626;">D.K. Muriithi & V.W. Lumumba</span>
 </div>
