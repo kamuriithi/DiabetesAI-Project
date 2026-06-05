@@ -1,0 +1,53 @@
+{
+  "Logistic Regression": {
+    "Accuracy": 0.8481,
+    "Precision": 0.7917,
+    "Recall": 0.7308,
+    "F1 Score": 0.76,
+    "ROC-AUC": 0.8926,
+    "confusion_matrix": [
+      [
+        48,
+        5
+      ],
+      [
+        7,
+        19
+      ]
+    ]
+  },
+  "KNN": {
+    "Accuracy": 0.7468,
+    "Precision": 0.625,
+    "Recall": 0.5769,
+    "F1 Score": 0.6,
+    "ROC-AUC": 0.8364,
+    "confusion_matrix": [
+      [
+        44,
+        9
+      ],
+      [
+        11,
+        15
+      ]
+    ]
+  },
+  "SVM": {
+    "Accuracy": 0.7848,
+    "Precision": 0.68,
+    "Recall": 0.6538,
+    "F1 Score": 0.6667,
+    "ROC-AUC": 0.8687,
+    "confusion_matrix": [
+      [
+        45,
+        8
+      ],
+      [
+        9,
+        17
+      ]
+    ]
+  }
+}
