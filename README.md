@@ -1,4 +1,4 @@
-# DiabetesAI Pro — Clinical Decision Support Dashboard
+# DiabetesAI Project— Clinical Decision Support Dashboard
 
 ## Quick Start
 
