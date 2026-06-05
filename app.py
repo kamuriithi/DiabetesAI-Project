@@ -163,7 +163,7 @@ with st.sidebar:
 # PAGE 1 — OVERVIEW
 # ══════════════════════════════════════════════════════════════════════════════
 if page == "🏠  Overview":
-    st.markdown("<h2 style='text-align: center; color: #000000;'>🩺 DiabetesAI Project — Clinical Decision Support Dashboard</h2>", unsafe_allow_html=True)
+    st.markdown("<h2 style='text-align: center; color: red;font-size: 48px;'>🩺 DiabetesAI Project — Clinical Decision Support Dashboard</h2>", unsafe_allow_html=True)
     st.markdown("<p style='text-align: center; color: #DC2626; font-size: 20px;'><em>Predictive modelling with Explainable AI for diabetes risk assessment</em></p>", unsafe_allow_html=True)
     st.markdown("---")
 
