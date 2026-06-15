@@ -800,6 +800,10 @@ elif page == "🗂️  Data Explorer":
 elif page == "📋  About & Methods":
     st.markdown("## 📋 About & Methods")
     st.markdown("---")
+    
+     # Display Chuka University Logo
+    st.image("dS_lifecycle.png", use_container_width=True)
+    
     col1, col2 = st.columns(2)
     with col1:
         st.markdown("### 🔬 Dataset")
