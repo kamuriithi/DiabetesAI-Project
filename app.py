@@ -136,6 +136,38 @@ with st.sidebar:
     </div>
     """, unsafe_allow_html=True)
 
+    # Custom CSS for aligned navigation
+    st.markdown("""
+    <style>
+    /* Align sidebar radio buttons */
+    [data-testid="stSidebar"] .stRadio > div {
+        padding: 0;
+    }
+    [data-testid="stSidebar"] .stRadio label {
+        display: flex !important;
+        align-items: center !important;
+        padding: 10px 14px !important;
+        border-radius: 8px !important;
+        transition: background 0.2s !important;
+        cursor: pointer !important;
+        margin: 2px 0 !important;
+    }
+    [data-testid="stSidebar"] .stRadio label:hover {
+        background: #334155 !important;
+    }
+    [data-testid="stSidebar"] .stRadio label span {
+        display: flex !important;
+        align-items: center !important;
+        gap: 12px !important;
+    }
+    [data-testid="stSidebar"] .stRadio label span:first-child {
+        min-width: 28px !important;
+        text-align: center !important;
+        font-size: 1.2rem !important;
+    }
+    </style>
+    """, unsafe_allow_html=True)
+
     page = st.radio(
         "Navigation",
         ["🏠  Overview",
@@ -149,7 +181,7 @@ with st.sidebar:
     )
     st.markdown("---")
     st.markdown("""
-<div style="font-size: 0.9rem; font-weight: 700; text-transform: uppercase; text-align: center; margin-top: 15px; line-height: 1.4;">
+<div style="font-size: 0.75rem; font-weight: 700; text-transform: uppercase; text-align: center; margin-top: 15px; line-height: 1.4;">
     Designed by CDAM Data Scientist<br>
     <span style="color: #DC2626;">D.K. Muriithi & V.W. Lumumba</span>
 </div>
