@@ -129,10 +129,10 @@ SAFE_MAP = {
 with st.sidebar:
     st.markdown("""
     <div style='text-align:center; padding: 16px 0 24px 0;'>
-        <div style='font-size: 2.5rem; line-height: 1;'>🩺</div>
-        <div style='font-size:1.3rem; font-weight:700; color:#38bdf8; margin-top:10px;'>AI-Diabetes Screening</div>
-        <div style='font-size:0.75rem; color:#64748b; margin-top:4px;'>Diabetes Prediction System</div>
-        <div style='font-size:0.7rem; color:#475569; margin-top:8px;'>Clinical Decision Support</div>
+        <div style='font-size: 3.5rem; line-height: 1;'>🩺</div>
+        <div style='font-size:1.5rem; font-weight:800; color:#38bdf8; margin-top:10px;'>AI-Diabetes Screening</div>
+        <div style='font-size:1.2rem; color:#64748b; margin-top:4px;'>Diabetes Prediction System</div>
+        <div style='font-size:1.0rem; color:#475569; margin-top:8px;'>Clinical Decision Support</div>
     </div>
     """, unsafe_allow_html=True)
 
@@ -163,7 +163,7 @@ with st.sidebar:
     [data-testid="stSidebar"] .stRadio label span:first-child {
         min-width: 28px !important;
         text-align: center !important;
-        font-size: 1.2rem !important;
+        font-size: 1.5rem !important;
     }
     </style>
     """, unsafe_allow_html=True)
