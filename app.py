@@ -131,8 +131,12 @@ with st.sidebar:
     <div style='text-align:center; padding: 16px 0 24px 0;'>
     """, unsafe_allow_html=True)
     
-    # Display Chuka University Logo
-    st.image("logo.png", use_container_width=True)
+   st.set_page_config(
+    page_title="AI-Diabetes Screening",
+    page_icon="🩺",
+    layout="wide",
+    initial_sidebar_state="expanded",
+)
     
     st.markdown("""
     <div style='font-size:1.3rem; font-weight:700; color:#38bdf8; margin-top:10px;'>Chuka University</div>
