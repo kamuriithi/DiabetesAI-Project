@@ -129,19 +129,11 @@ SAFE_MAP = {
 with st.sidebar:
     st.markdown("""
     <div style='text-align:center; padding: 16px 0 24px 0;'>
-    """, unsafe_allow_html=True)
-    
-   st.set_page_config(
-    page_title="AI-Diabetes Screening",
-    page_icon="🩺",
-    layout="wide",
-    initial_sidebar_state="expanded",
-)
-    
-    st.markdown("""
-    <div style='font-size:1.3rem; font-weight:700; color:#38bdf8; margin-top:10px;'>Chuka University</div>
-    <div style='font-size:0.75rem; color:#64748b; margin-top:4px;'>Diabetes Prediction System</div>
-    <div style='font-size:0.7rem; color:#475569; margin-top:8px;'>Clinical Decision Support</div>
+        <div style='font-size: 2.5rem; line-height: 1;'>🩺</div>
+        <div style='font-size:1.3rem; font-weight:700; color:#38bdf8; margin-top:10px;'>AI-Diabetes Screening</div>
+        <div style='font-size:0.75rem; color:#64748b; margin-top:4px;'>Diabetes Prediction System</div>
+        <div style='font-size:0.7rem; color:#475569; margin-top:8px;'>Clinical Decision Support</div>
+    </div>
     """, unsafe_allow_html=True)
 
     page = st.radio(
